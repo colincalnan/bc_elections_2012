@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
 
 require 'scraperwiki/simple_html_dom.php';
 $html = scraperWiki::scrape("http://bc2013.com/candidates"); 
